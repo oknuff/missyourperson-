@@ -114,6 +114,9 @@
   #toast.show{transform:translateX(-50%) translateY(0)}
   #toast.ok{border-color:rgba(124,106,247,0.4)}
   #toast.err{border-color:rgba(247,106,106,0.4);color:#f76a6a}
+  footer{text-align:center;padding:0 20px 36px;position:relative;z-index:1}
+  .footer-credit{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
+  .footer-credit span{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
   @media(max-width:560px){.card{padding:24px 18px}.search-row{flex-direction:column}.search-row .btn{width:100%}h1{font-size:2.4rem;letter-spacing:-1px}}
 </style>
 </head>
@@ -187,6 +190,10 @@
     </div>
   </div>
 </main>
+
+<footer>
+  <p class="footer-credit">an <span>azizul</span> fun project</p>
+</footer>
 
 <div id="toast"></div>
 
